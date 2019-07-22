@@ -13,9 +13,9 @@
     "mysql",
     "nesting"
   ],
-  "bugs":{
-    "url" : "https://github.com/alancieri/jrelations-node/issues",
-    "email" : "alessandro@oneabee.com"
+  "bugs": {
+    "url": "https://github.com/alancieri/jrelations-node/issues",
+    "email": "alessandro@oneabee.com"
   },
   "repository": {
     "type": "git",

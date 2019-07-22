@@ -24,7 +24,7 @@
  * @param {Array} nestingOptions
  * @return {Object}
  */
-const JRelation = (rows, nestingOptions) => {
+const JRelations = (rows, nestingOptions) => {
 
   if (rows == null || nestingOptions == null) return rows
 
@@ -122,9 +122,9 @@ const JRelation = (rows, nestingOptions) => {
   //
 var isExist = function (array, key, value) {
     for (var i = 0; i < array.length; i++) {
-      if (array[i][key] == value) {return true }
+      if (array[i][key] == value) { return true }
     }
     return false
   }
 
-module.exports.JRelation = JRelation
+module.exports.JRelations = JRelations
