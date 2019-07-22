@@ -1,37 +1,26 @@
 {
-  "name": "node-mysql-nesting",
-  "description": "Nesting objects as a result of mysql joins",
-  "version": "0.0.3",
-  "author": {
-    "name": "Kyle Ladd",
-    "email": "kladd6@gmail.com"
-  },
+  "name": "jrelations-node",
+  "description": "Forked from Kyle Ladd, 2015, See project's Github page for usage details https://github.com/kyleladd",
+  "version": "0.0.1",
+  "main": "index.js",
   "contributors": [
     {
-      "name": "Selman Kahya",
-      "email": "hey@selmanh.com"
+      "name": "Alessandro Lancieri",
+      "email": "alessandro@oneabee.com"
     }
   ],
   "keywords": [
     "mysql",
     "nesting"
   ],
-  "bugs":{ 
-    "url" : "https://github.com/kyleladd/node-mysql-nesting/issues",
-    "email" : "kladd6@gmail.com"
+  "bugs":{
+    "url" : "https://github.com/alancieri/jrelations-node/issues",
+    "email" : "alessandro@oneabee.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kyleladd/node-mysql-nesting"
+    "url": "https://github.com/alancieri/jrelations-node"
   },
-  "main": "main",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "mysql" : "2.0.0-alpha8"
-  },
-  "devDependencies": {
-    "express": "3.3.4"
-  }
+  "author": "Alessandro Lancieri",
+  "dependencies": {}
 }
